@@ -1,0 +1,47 @@
+1. SELECT * FROM users;
+2. SELECT * FROM projects_db.users WHERE `id`=2;
+
+3. CREATE TABLE Meals_Users (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+userid INT(6) NOT NULL,
+mealid INT(6) NOT NULL,
+mealname VARCHAR(30) NOT NULL,
+reg_date TIMESTAMP
+);
+4. CREATE TABLE Meals (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+meal_name VARCHAR(30) NOT NULL,
+reg_date TIMESTAMP
+);
+5. 
+INSERT INTO Meals_Users (user_id, meal_id, meal_name)
+VALUES (1,1, 'pasta');
+
+6. 
+UPDATE users
+SET username='Alfreds Futterkiste
+WHERE id=3;
+7.
+
+DELETE FROM users
+WHERE id=4;
+8.
+SELECT user.username, user.email,  meals.mealname FROM users, Meals_Users
+WHERE user.id = meals.userid;
+
+9. Box Model - layout of the HTML elemnt
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+
+10. I have a drawing of the page output
+		
+11. Chris Orange
+12. obj = {
+	
+}
+
+
+

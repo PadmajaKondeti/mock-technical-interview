@@ -3,19 +3,19 @@
     "dialect": "mysql",
     "host": "localhost",
     "username": "root",
-    "password": "1234",
+    "password": "",
     "database": "projects_db"
   },
   "test": {
     "username": "root",
-    "password": "1234",
+    "password": null,
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "1234",
+    "password": null,
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"

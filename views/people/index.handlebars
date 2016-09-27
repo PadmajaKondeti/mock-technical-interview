@@ -32,13 +32,10 @@
           </li>
         {{/if}}
 
-        {{#each this.users }}
+        {{#each this.Tasks }}
           <li>
-            {{this.user}}
-            {{this.name}} - owned by {{this.User.email}}
-
-
-        {{> users/delete-users}}
+            {{this.task}}
+            {{> tasks/delete-task}}
           </li>
         {{/each}}
       </ul>
